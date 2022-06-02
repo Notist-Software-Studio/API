@@ -1,7 +1,7 @@
 const Joi = require('joi');
 const express = require('express');
 const app = require('express')();
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 8000;
 app.use(express.json());
 
 app.listen(
